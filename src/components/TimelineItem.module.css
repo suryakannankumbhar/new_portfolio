@@ -1,0 +1,136 @@
+.itemContainer {
+    position: relative;
+    padding-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.timelineDot {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #3f3f46;
+    background-color: #0a0a0a;
+    z-index: 10;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.date {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    color: #71717a;
+    margin: 0 0 0.25rem 0;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 0.75rem 0;
+    transition: color 0.2s ease;
+}
+
+.description {
+    color: #a1a1aa;
+    margin: 1.5rem 0 0 0;
+    line-height: 1.7;
+    font-size: 1.125rem;
+}
+
+.image {
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+    border: 1px solid #27272a;
+    margin-top: 1rem;
+}
+
+.itemContainer:hover .timelineDot {
+    border-color: #4ade80;
+    box-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+}
+
+.linksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.linkButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    color: #a1a1aa;
+    border: 1px solid #3f3f46;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    transition: all 0.2s ease;
+}
+
+.linkButton:hover {
+    color: #ffffff;
+    border-color: #a1a1aa;
+}
+
+.techContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.techPill {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    color: #d1d5db;
+    background-color: #1a1a1a;
+    border: 1px solid #3f3f46;
+    padding: 0.35rem 0.75rem;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .itemContainer {
+        padding-left: 2.5rem;
+    }
+
+    .timelineDot {
+        left: -4px;
+    }
+
+    .title {
+        font-size: 1.75rem;
+    }
+
+    .date {
+        font-size: 0.875rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .image {
+        max-height: 250px;
+    }
+
+    .linkButton {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.5rem;
+    }
+
+    .techPill {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.5rem;
+    }
+}

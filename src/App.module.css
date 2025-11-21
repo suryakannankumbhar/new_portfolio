@@ -1,0 +1,12 @@
+.appContainer {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .appContainer {
+        flex-direction: column;
+    }
+}
