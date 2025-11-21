@@ -307,7 +307,7 @@ export default function MainContent() {
             className={styles.contactButton}
           >
             <FaLinkedin />
-            LinkedIn Profile
+            LinkedIn
           </a>
 
         </div>
