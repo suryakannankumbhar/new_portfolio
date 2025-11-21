@@ -285,7 +285,7 @@ export default function MainContent() {
             </div>
 
             <span className={styles.emailText}>
-              suryakannankumbhar@gmail.com
+              E-Mail
             </span>
 
             
