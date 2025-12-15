@@ -6,9 +6,9 @@ import { FaLinkedin, FaEnvelope, FaCopy, FaCheck } from 'react-icons/fa'
 const items = [
   {
     date: "Present * Experience",
-    title: "SAP Basis Consultant - Tata Consultancy Services",
-    description: "Working as an SAP Basis Consultant for the client Ipsen Pharma. Responsible for system administration, monitoring, and ensuring the stability and performance of SAP environments.",
-    tech: ["SAP", "System Administration", "Monitoring", "Troubleshooting"]
+    title: "Front End React Developer - TCS",
+    description: "Working as a Front End Developer specializing in React.js. Responsible for building reusable UI components, managing application state with Redux Toolkit, and ensuring high-performance rendering for scalable web applications.",
+    tech: ["React.js", "Redux", "Frontend Development ","API", "Integration"]
   },
   {
     date: "Project",
@@ -17,7 +17,7 @@ const items = [
     tech: ["HTML", "CSS", "JavaScript"],
     image: "/images/gif/portfolio.gif",
     links: {
-      live: "https://suryakannankumbhar.netlify.app/",
+      live: "https://suryakkumbhar.netlify.app/",
       repo: "https://github.com/suryakannankumbhar/portfolio"
     }
   },
