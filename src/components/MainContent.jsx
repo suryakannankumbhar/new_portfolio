@@ -5,10 +5,16 @@ import { FaLinkedin, FaEnvelope, FaCopy, FaCheck } from 'react-icons/fa'
 
 const items = [
   {
-    date: "Present * Experience",
+    title: "Software Development Engineer in Test (SDET) - TCS",
+    date: "Apr 2025 - Present",
+    description: "Developing automated End-to-End (E2E) test scripts using Playwright and performing performance load testing with Apache JMeter. Responsible for ensuring system stability and integrating automated test suites into CI/CD pipelines.",
+    tech: ["Playwright", "JMeter", "Python", "CI/CD", "Automation"]
+  },
+  {
     title: "Front End React Developer - TCS",
-    description: "Working as a Front End Developer specializing in React.js. Responsible for building reusable UI components, managing application state with Redux Toolkit, and ensuring high-performance rendering for scalable web applications.",
-    tech: ["React.js", "Redux", "Frontend Development ","API", "Integration"]
+    date: "Nov 2024 - Mar 2025",
+    description: "Built responsive Single Page Applications (SPAs) using React.js and Redux Toolkit. Designed reusable modular components and integrated RESTful APIs using Axios for seamless data synchronization.",
+    tech: ["React.js", "Redux Toolkit", "Axios", "Agile", "Frontend"]
   },
   {
     date: "Project",
