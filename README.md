@@ -26,7 +26,7 @@
 
 This repository hosts the source code for my personal portfolio website, **[suryakannankumbhar.netlify.app](https://suryakannankumbhar.netlify.app/)**. 
 
-It serves as a central hub to showcase my journey as a **Software Engineer** and **SDET**. I built this project to move away from template-heavy designs and demonstrate my ability to craft clean, scalable, and performant frontend architectures from scratch.
+It serves as a central hub to showcase my journey as a **Software Engineer** and **SDET**. I built this project to move away from template-heavy designs and demonstrate my ability to build clean, scalable, and performant frontend architectures from scratch.
 
 ### ✨ Key Features
 
