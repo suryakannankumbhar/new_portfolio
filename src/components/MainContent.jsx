@@ -15,7 +15,17 @@ const items = [
     date: "Nov 2024 - Mar 2025",
     description: "Built responsive Single Page Applications (SPAs) using React.js and Redux Toolkit. Designed reusable modular components and integrated RESTful APIs using Axios for seamless data synchronization.",
     tech: ["React.js", "Redux Toolkit", "Axios", "Agile", "Frontend"]
-  },
+  },{
+  title: "FPL Guru",
+  date: "Project", 
+  image: "/images/gif/fpl-guru.gif",
+  description: "Built an intelligent FPL assistant powered by Google's Gemini AI. The application features a custom AI agent capable of analyzing player statistics, predicting performance, and providing personalized team transfer recommendations through a natural language interface.",
+  tech: ["Gemini AI", "AI Agents", "React.js", "Node.js", "Generative AI"],
+  links: {
+    live: "https://fpl-guru.netlify.app/",
+    repo: "https://github.com/suryakannankumbhar/fpl_guru"
+  }
+},
   {
     date: "Project",
     title: "Personal Portfolio",
